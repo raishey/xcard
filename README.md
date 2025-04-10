@@ -25,11 +25,11 @@ Manifest File: A file (e.g., manifest.json) describing the contents and metadata
 Manifest Example:
 ```json
 {
-  "name": "Super Mario Bros",
-  "core": "NES",
+  "name": "Panzer Dragoon Saga",
+  "core": "SATURN",
   "files": [
     {
-      "path": "SuperMario.nes",
+      "path": "PanzerDragoonSaga.saturn",
       "type": "rom"
     },
     {
@@ -38,14 +38,14 @@ Manifest Example:
     }
   ],
   "metadata": {
-    "display_name": "Super Mario Bros (NES)",
+    "display_name": "Panzer Dragoon Saga",
     "marquee": {
       "bitmap_path": "marquee.png",
       "width": 320,
       "height": 32
     },
     "controller": {
-      "type": "nes",
+      "type": "sega-saturn",
       "mapping": {
         "a": "button1",
         "b": "button2"
